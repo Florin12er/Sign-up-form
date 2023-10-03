@@ -1,7 +1,7 @@
 @font-face {
     font-family: "Norse";
     font-weight: 400;
-    src: url(/home/florin/Downloads/Norse-Bold.otf);
+    src: url(Norse-Bold.otf);
 }
 :root {
     --white-color:white;
