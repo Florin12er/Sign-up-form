@@ -19,7 +19,7 @@ body {
 .nature {
     position: relative;
     width: 40vw;
-    height: 100vh;
+    height: 98.3vh;
 }
 .nature>img {
     height: 100%;
@@ -33,7 +33,7 @@ body {
     position: fixed;
     top: 19.1%;
     height: 200px;
-    width: 40%;
+    width: 39.5%;
 }
 .odin_logo {
     width: 14%;
@@ -70,7 +70,7 @@ button {
 .text {
     background-color: var(--background-color);
     width: 92.8rem;
-    height: 30rem;
+    height: 19rem;
 }
 .sign_up {
     width: 80rem;
@@ -81,7 +81,7 @@ button {
 .create {
     background-color: var(--background-color);
     width: 92.8rem;
-    height: var(--base-height);
+    height: 10rem;
 }
 .input {
     display: flex;
@@ -101,7 +101,7 @@ input:focus{
    border: 2px solid var(--button-color);
 }
 .not_real {
-    padding-top: 12rem;
+    padding-top: 7rem;
 }
 .text_ad {
     padding-top: 30px;
