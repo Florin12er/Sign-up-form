@@ -125,7 +125,7 @@ form {
 .sign_in {
     display: flex;
     flex-flow: row wrap;
-    gap: 40px;
+    gap: 39.5px;
     margin-left: 4rem;
     margin-top: 2rem;
 }
