@@ -11,35 +11,51 @@
         <img class="leaves" src="/home/florin/Downloads/Sign-up-form/nature.avif" >
     <div class="logo">
         <img class="odin_logo" src="/home/florin/Downloads/Sign-up-form/odin-lined.png">
-        <h1 class="title">Odin</h1>
+        <p class="title">Odin</p>
     </div>
     </div>
     <div class="main">
         <div class="text">
-            <h1>This is not a real online service!You know need something</h1>
+            <h1 class="not_real">This is not a real online service!You know need something</h1>
             <h1>like this in your life to help you realize your deepest dreams.</h1>
             <h1>Sign up now to get started</h1>
         <h1 class="text_ad">You know you want to.</h1>
         </div>
+        <form action="#">
         <div class="sign_up">
             <h1 class="bottom_sign_text">Let's do this</h1>
             <div class="sign_in">
+            <div class="input">
             <label for="First name">FIRST NAME</label>
-            <input type="text">
+            <input type="text" name="first name" id="first name" minlength="2" required>
+            </div>
+            <div class="input">
             <label for="Last name">LAST NAME</label>
-            <input type="text">
+            <input type="text" name="last name" id="last name" minlength="2" required>
+            </div>
+            <div class="input">
             <label for="Email">EMAIL</label>
-            <input type="text">
+            <input type="email" name="email" id="email" required>
+            </div>
+            <div class="input">
             <label for="Phone number">PHONE NUMBER</label>
-            <input type="text">
+            <input type="text" name="phone number" id="phone number" minlength="9"
+            maxlength="9" required>
+            </div>
+            <div class="input">
             <label for="Password">PASSWORD</label>
-            <input type="text">
+            <input type="password" name="password" id="password" required>
+            </div>
+            <div class="input">
             <label for="Confirm Password">CONFIRM PASSWORD</label>
+            <input type="password" name="confirm password" id="confirm password" required>
+            </div>
+            </div>
         </div>
-        </div>
+        </form>
         <div class="create">
-            <button>Create Account</button>
-            <h2>Already have an acount? <a href="#">Log in</a></h2>
+            <button type="submit">Create Account</button>
+            <h2>Already have an acount? <a href="https://florin12er.github.io/Sign-up-form/">Log in</a></h2>
         </div>
     </div>
 </body>
