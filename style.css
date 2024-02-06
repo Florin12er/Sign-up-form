@@ -101,7 +101,7 @@ input:focus{
    border: 2px solid var(--button-color);
 }
 .not_real {
-    padding-top: 7rem;
+    padding-top: 10rem;
 }
 .text_ad {
     padding-top: 30px;
