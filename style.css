@@ -14,7 +14,7 @@
     --base-height:25.7rem
 }
 body {
-    margin: 0px;
+    margin: 1px;
     display: flex;
 }
 .nature {
