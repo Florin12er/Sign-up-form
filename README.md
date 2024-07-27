@@ -1,3 +1,3 @@
 # Sign-up-form
 
-please sign up
+please sign up.
